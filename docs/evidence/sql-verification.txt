@@ -1,18 +1,17 @@
 Captured UTC: 2026-10-31T18:24:34.765200+00:00
 $ docker compose exec -T db sh -c psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"
 
- daily_rows | daily_trips 
+ daily_rows | daily_trips
 ------------+-------------
          31 |     2859451
 (1 row)
 
- hourly_rows | hourly_trips 
+ hourly_rows | hourly_trips
 -------------+--------------
           24 |      2859451
 (1 row)
 
-            run_at             | source_rows | clean_rows | rejected_rows | run_succeeded | source_balanced | trips_balanced | amount_balanced 
+            run_at             | source_rows | clean_rows | rejected_rows | run_succeeded | source_balanced | trips_balanced | amount_balanced
 -------------------------------+-------------+------------+---------------+---------------+-----------------+----------------+-----------------
  2026-10-31 18:23:40.303892+00 |     2964624 |    2859451 |        105173 | t             | t               | t              | t
 (1 row)
-

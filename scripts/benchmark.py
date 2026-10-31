@@ -10,7 +10,7 @@ root = Path(__file__).resolve().parents[1]
 evidence = root / 'docs/evidence'
 evidence.mkdir(exist_ok=True)
 with (evidence / 'performance.csv').open('w', newline='') as output:
-    writer = csv.writer(output)
+    writer = csv.writer(output, lineterminator="\n")
     writer.writerow(['started_utc', 'master', 'run', 'elapsed_seconds', 'exit_code'])
     # Alternate configurations to reduce ordering bias. No concurrent ETL writers.
     for trial in range(1, 4):

@@ -26,7 +26,7 @@
 
 Actions 地址：https://github.com/Obminth/nyc-taxi-data-platform/actions
 
-本地交付已就绪，等待本次推送后的远程运行结果；远程通过后再补入具体运行链接。
+首次推送成功；首轮远程测试通过：[运行 41229372976](https://github.com/Obminth/nyc-taxi-data-platform/actions/runs/41229372976)。工作流提示旧版动作弃用，因此已更新为官方现行 checkout v7.0.1、setup-python v7.1.0、setup-java v6.1.0，并固定 Ubuntu 24.04 runner；更新后的结果将继续验证。
 
 ## 环境和边界
 
