@@ -55,7 +55,7 @@ nyc-taxi-data-platform/
 └── docs/
     ├── analysis-report.md     # 真实数据分析及口径
     ├── troubleshooting.md     # 已有故障记录和恢复复测
-    ├── project-audit.md       # 对照指导书的完成与待办状态
+    ├── project-audit.md       # 指导书第一版验收状态
     └── screenshots/           # 本机实际运行截图
 ```
 
@@ -152,13 +152,17 @@ local[2] 三次端到端平均 **16.338 秒**，local[4] 平均 **14.908 秒**�
 
 ## 示例截图
 
-以下为本机真实运行截图；完整命令输出保存在 [docs/evidence](docs/evidence)。
+以下为本机真实运行截图；完整命令输出保存在 [docs/evidence](docs/evidence)。更新后的 [GitHub Actions 已通过](https://github.com/Obminth/nyc-taxi-data-platform/actions/runs/41229546426)，远程 pytest 同样为 2 passed。
 
 ![看板概览](docs/screenshots/dashboard-overview.png)
 
 ![数据质量与每日统计](docs/screenshots/dashboard-quality.png)
 
 停服恢复截图见 [dashboard-restored.png](docs/screenshots/dashboard-restored.png)。pytest、Compose、SQL 对账原始输出分别见 [pytest.txt](docs/evidence/pytest.txt)、[compose-status.txt](docs/evidence/compose-status.txt)、[sql-verification.txt](docs/evidence/sql-verification.txt)。
+
+![GitHub Actions 实际通过](docs/screenshots/github-actions.png)
+
+pytest、SQL 与 Compose 原始输出的 GitHub 页面截图见 [pytest-record.png](docs/screenshots/pytest-record.png)、[sql-record.png](docs/screenshots/sql-record.png)、[compose-record.png](docs/screenshots/compose-record.png)。
 
 ## 运维与局限
 

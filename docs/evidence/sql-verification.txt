@@ -1,5 +1,5 @@
 Captured UTC: 2026-10-31T18:24:34.765200+00:00
-$ docker compose exec -T db sh -c psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"
+$ docker compose exec -T db sh -c 'psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB"' < sql/verify.sql
 
  daily_rows | daily_trips
 ------------+-------------

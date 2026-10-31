@@ -1,0 +1,79 @@
+{
+  "conclusion": "success",
+  "headSha": "10508563bb2c58d851677cf62fcfc60021912e29",
+  "jobs": [
+    {
+      "completedAt": "2026-10-31T18:28:47Z",
+      "conclusion": "success",
+      "databaseId": 124620671825,
+      "name": "test",
+      "startedAt": "2026-10-31T18:28:02Z",
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@v7.0.1",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v7.1.0",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/setup-java@v6.1.0",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Install dependencies",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Test transformations",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-java@v6.1.0",
+          "number": 10,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v7.1.0",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v7.0.1",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/Obminth/nyc-taxi-data-platform/actions/runs/41229546426/job/124620671825"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/Obminth/nyc-taxi-data-platform/actions/runs/41229546426"
+}

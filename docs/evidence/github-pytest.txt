@@ -1,0 +1,18 @@
+test	Test transformations	﻿2026-10-31T18:28:31.6349456Z ##[group]Run python -m pytest -q
+test	Test transformations	2026-10-31T18:28:31.6349655Z [36;1mpython -m pytest -q[0m
+test	Test transformations	2026-10-31T18:28:31.6365757Z shell: /usr/bin/bash -e {0}
+test	Test transformations	2026-10-31T18:28:31.6365887Z env:
+test	Test transformations	2026-10-31T18:28:31.6365990Z   SPARK_LOCAL_IP: 127.0.0.1
+test	Test transformations	2026-10-31T18:28:31.6366116Z   TZ: America/New_York
+test	Test transformations	2026-10-31T18:28:31.6366271Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Test transformations	2026-10-31T18:28:31.6366502Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+test	Test transformations	2026-10-31T18:28:31.6366738Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Test transformations	2026-10-31T18:28:31.6366936Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Test transformations	2026-10-31T18:28:31.6367133Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+test	Test transformations	2026-10-31T18:28:31.6367338Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+test	Test transformations	2026-10-31T18:28:31.6367561Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+test	Test transformations	2026-10-31T18:28:31.6367809Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+test	Test transformations	2026-10-31T18:28:31.6368036Z   MAVEN_ARGS: -ntp
+test	Test transformations	2026-10-31T18:28:31.6368147Z ##[endgroup]
+test	Test transformations	2026-10-31T18:28:41.2111974Z ..                                                                       [100%]
+test	Test transformations	2026-10-31T18:28:41.2112365Z 2 passed in 9.23s

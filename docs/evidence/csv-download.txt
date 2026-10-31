@@ -1,0 +1,5 @@
+Browser download: nyc_taxi_daily_2024-01.csv
+Rows: 31
+Sum trip_count: 2859451
+Sum total_amount: 78023020.01
+Validation: PASS
