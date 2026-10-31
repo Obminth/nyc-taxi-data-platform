@@ -1,0 +1,7 @@
+2026-10-31 18:24:36.071 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+有效订单数 2,859,451
+乘客总支付额 $78,023,020.01
+平均行驶距离 3.30 英里
+平均行程时长 15.01 分钟
+UI_ERRORS []
+APPTEST_OK

@@ -1,0 +1,6 @@
+Captured UTC: 2026-10-31T18:24:34.984987+00:00
+$ docker compose ps
+
+NAME                                 IMAGE                              COMMAND                  SERVICE     CREATED         STATUS                    PORTS
+nyc-taxi-data-platform-dashboard-1   nyc-taxi-data-platform-dashboard   "streamlit run /app/…"   dashboard   2 minutes ago   Up 43 seconds (healthy)   127.0.0.1:8501->8501/tcp
+nyc-taxi-data-platform-db-1          postgres:16                        "docker-entrypoint.s…"   db          2 days ago      Up 22 minutes (healthy)   5432/tcp

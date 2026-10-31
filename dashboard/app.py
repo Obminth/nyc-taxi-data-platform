@@ -95,7 +95,7 @@ if not quality.empty:
     st.write(f"有效比例：{rate:.2f}%")
 
 st.subheader("每日统计表")
-st.dataframe(daily, use_container_width=True)
+st.dataframe(daily, width="stretch")
 st.download_button(
     "下载每日汇总CSV",
     data=daily.to_csv(index=False).encode("utf-8-sig"),

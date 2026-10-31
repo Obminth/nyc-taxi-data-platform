@@ -69,6 +69,7 @@ def main():
     parser.add_argument(
         "--input", default="data/raw/yellow_tripdata_2024-01.parquet"
     )
+    parser.add_argument("--spark-master", choices=["local[2]", "local[4]"], default="local[2]")
     args = parser.parse_args()
     start, end = month_bounds(args.month)
     source = ROOT / args.input
@@ -76,7 +77,7 @@ def main():
         raise FileNotFoundError(f"找不到原始文件：{source}")
 
     spark = (SparkSession.builder
-             .master("local[2]")
+             .master(args.spark_master)
              .appName("NYC-Taxi-Batch-ETL")
              .config("spark.driver.memory", "2g")
              .config("spark.sql.session.timeZone", "America/New_York")

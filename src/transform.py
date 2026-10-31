@@ -22,13 +22,9 @@ def clean_trips(raw_df, start_date, end_date):
     )
 
     df = df.withColumn(
-    "duration_min",
-    F.timestamp_diff(
-        "SECOND",
-        F.col("pickup_time"),
-        F.col("dropoff_time")
-    ) / 60.0
-)
+        "duration_min",
+        F.timestamp_diff("SECOND", F.col("pickup_time"), F.col("dropoff_time")) / 60.0,
+    )
 
     return df.filter(
         F.col("pickup_time").isNotNull()

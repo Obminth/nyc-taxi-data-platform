@@ -1,0 +1,17 @@
+Captured UTC: 2026-10-31T18:24:35.100467+00:00
+$ bash -lc uname -r; getconf _NPROCESSORS_ONLN; free -h; docker version --format "{{.Server.Version}}"; docker compose version; docker system df; du -sh data/raw data/processed
+
+6.18.33.2-microsoft-standard-WSL2
+4
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.6Gi       2.2Gi        63Mi       4.2Gi       6.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+29.9.2
+Docker Compose version v5.6.1
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          8         3         5.779GB   3.313GB (57%)
+Containers      3         2         36.01MB   34.77MB (96%)
+Local Volumes   1         1         48.03MB   0B (0%)
+Build Cache     88        0         6.528GB   1.555GB
+48M	data/raw
+43M	data/processed

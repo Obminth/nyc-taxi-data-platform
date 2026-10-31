@@ -1,0 +1,7 @@
+ Container nyc-taxi-data-platform-db-1 Running 
+ Container nyc-taxi-data-platform-db-1 Waiting 
+ Container nyc-taxi-data-platform-db-1 Healthy 
+ Container nyc-taxi-data-platform-etl-run-67e9d96fb4ac Creating 
+ Container nyc-taxi-data-platform-etl-run-67e9d96fb4ac Created 
+..                                                                       [100%]
+2 passed in 11.42s
